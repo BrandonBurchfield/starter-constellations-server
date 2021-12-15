@@ -1,5 +1,3 @@
-const { default: axios } = require("axios");
-
 axios
   .get(constellationsUrl)
   .then(({ data }) => {
